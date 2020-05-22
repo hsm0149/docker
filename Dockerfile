@@ -12,7 +12,7 @@ RUN apt-get install -y -q nginx
 
 # file copy 
 
-COPY index.html /usr/share/nginx/index.html
+COPY ./index.html /usr/share/nginx/index.html
 
 
 
